@@ -1,0 +1,51 @@
+2014-10-20 17:06:57,576 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-10-20 17:07:00,811 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-10-20 17:07:04,181 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notify-beans/src/main/java
+2014-10-20 17:07:04,182 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notify-beans/src/main/resources
+2014-10-20 17:07:04,185 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notify-beans/src/test/java
+2014-10-20 17:07:04,186 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notify-beans/src/test/resources
+2014-10-20 17:07:05,107 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Notify/src/main/java
+2014-10-20 17:07:05,107 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /Notify/src/main/resources overlaps with sources folder /Notify/src/main/resources
+2014-10-20 17:07:05,108 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /Notify/src/main/resources overlaps with sources folder /Notify/src/main/resources
+2014-10-20 17:07:05,110 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Notify/src/test/java
+2014-10-20 17:07:06,156 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 29 sec
+2014-10-20 17:07:08,587 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-10-20 17:07:09,538 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 17:07:09,605 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:07:09,609 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 17:07:09,610 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:07:10,322 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-10-20 17:07:11,168 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-10-20 17:07:12,292 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:07:12,293 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-10-20 17:07:12,314 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:07:12,318 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:07:12,318 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-10-20 17:07:13,856 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-10-20 17:07:14,740 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-10-20 17:07:15,799 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 17:07:15,809 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:07:15,814 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 17:07:15,817 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:07:17,622 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:07:17,627 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:07:17,628 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:07:17,632 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:07:17,633 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-10-20 17:09:21,939 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-10-20 17:09:23,345 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:09:23,360 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-10-20 17:09:23,363 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:09:23,367 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:09:23,367 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-10-20 17:09:42,875 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-10-20 17:09:44,339 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:09:44,339 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:09:44,340 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:09:44,342 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:09:44,343 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-10-20 17:10:16,068 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:10:16,069 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-10-20 17:10:16,072 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-10-20 17:10:16,076 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-10-20 17:10:16,076 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
