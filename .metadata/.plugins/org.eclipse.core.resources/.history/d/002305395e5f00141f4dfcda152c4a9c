@@ -1,0 +1,52 @@
+package org.prej.noti.service.message;
+
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+
+import org.prej.noti.message.MessageInfo;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.context.request.async.DeferredResult;
+
+@RestController
+@RequestMapping("/GetMessageInfo")
+public class GetMessageInfo {
+
+	@RequestMapping(method = RequestMethod.GET)
+	@ResponseStatus(HttpStatus.OK)
+	public DeferredResult<MessageInfo> getMessageInfo(@RequestParam(required=true)String msgId)
+	{
+		System.out.println("Message Id received is: " + msgId);
+		
+		DeferredResult<MessageInfo> deferredResult = new DeferredResult<MessageInfo>();
+		
+		getNotiMessageInfo(msgId, deferredResult);
+		
+		return deferredResult;
+	}
+
+	private void getNotiMessageInfo(final String msgId, final DeferredResult<MessageInfo> deferredResult) {
+	
+		ExecutorService executorService = Executors.newFixedThreadPool(100);
+		new Runnable() {
+			
+			@Override
+			public void run() {
+				
+				MessageInfo message = new MessageInfo();
+				message.setMsgId(msgId);
+				
+				deferredResult.setResult(message);
+			}
+		};
+		
+		
+	}
+
+}

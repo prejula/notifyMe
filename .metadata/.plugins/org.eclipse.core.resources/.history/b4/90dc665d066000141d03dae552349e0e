@@ -1,0 +1,27 @@
+package org.prej.noti.service.server;
+
+import org.prej.noti.Server;
+import org.prej.noti.message.EmailMessageInfo;
+import org.prej.noti.sender.email.EmailSender;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmailServerService {
+	
+	
+	private EmailSender emailSender = null;
+	
+	private Server server = null;
+			
+	public void addEmailServer(@RequestParam(required=true) Server server)
+	{
+		
+	}
+
+	public void sendMessage(@RequestParam(required=true) EmailMessageInfo messageInfo)
+	{
+		
+		emailSender.send(messageInfo, server);
+	}
+}

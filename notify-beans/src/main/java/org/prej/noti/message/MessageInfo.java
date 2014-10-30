@@ -20,7 +20,7 @@ public class MessageInfo implements Serializable{
 	 */
 	private static final long serialVersionUID = 7460498849153613255L;
 
-	private int msgId;
+	private String msgId;
 	
 	private String message;
 	
@@ -56,11 +56,11 @@ public class MessageInfo implements Serializable{
 		this.type = type;
 	}
 
-	public int getMsgId() {
+	public String getMsgId() {
 		return msgId;
 	}
 
-	public void setMsgId(int msgId) {
+	public void setMsgId(String msgId) {
 		this.msgId = msgId;
 	}
 

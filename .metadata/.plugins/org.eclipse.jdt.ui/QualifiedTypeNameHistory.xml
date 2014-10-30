@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ThreadPoolExecutor"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.request.async.DeferredResult"/>
+<fullyQualifiedTypeName name="org.prej.noti.service.message.GetMessageInfo.GetMessageInfoThread"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+<fullyQualifiedTypeName name="org.prej.noti.sender.email.EmailSender"/>
+<fullyQualifiedTypeName name="org.prej.noti.message.EmailMessageInfo"/>
+<fullyQualifiedTypeName name="org.prej.noti.Server"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="org.prej.noti.message.MessageInfo"/>
+<fullyQualifiedTypeName name="org.prej.noti.service.sendMessage.SendMessageService"/>
+<fullyQualifiedTypeName name="java.lang.ReflectiveOperationException"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.prej.noti.service.sendMessage.impl.FacebookService"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="org.springframework.social.facebook.api.Facebook"/>
+<fullyQualifiedTypeName name="org.springframework.social.facebook.api.Post"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+</qualifiedTypeNameHistroy>

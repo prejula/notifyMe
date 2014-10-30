@@ -1,0 +1,13 @@
+package org.prej.noti.service.sendMessage;
+
+import org.prej.noti.message.MessageInfo;
+
+public class SMSServerService implements SendMessageService {
+
+	@Override
+	public void sendMessage(MessageInfo messageInfo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

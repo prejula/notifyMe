@@ -1,0 +1,5 @@
+package org.prej.noti.service.sendMessage;
+
+public class TwitterServerService {
+
+}

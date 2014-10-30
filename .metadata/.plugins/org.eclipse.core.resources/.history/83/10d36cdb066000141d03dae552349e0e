@@ -1,0 +1,19 @@
+package org.prej.noti.service.server;
+
+import org.prej.noti.Server;
+import org.springframework.web.bind.annotation.RequestParam;
+
+public class NotificationServerService {
+
+	
+	public void addNotificationServer(@RequestParam(required=true) Server server)
+	{
+		
+	}
+	
+	
+	public void removeNotificationServer(@RequestParam(required=true) Server server)
+	{
+		
+	}
+}

@@ -1,0 +1,26 @@
+package org.prej.noti.service.sendMessage.impl;
+
+import org.prej.noti.Server;
+import org.prej.noti.message.MessageInfo;
+import org.prej.noti.sender.email.EmailSender;
+import org.prej.noti.service.sendMessage.SendMessageService;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmailService implements SendMessageService{
+	
+	
+	private EmailSender emailSender = null;
+	
+	private Server server = null;
+
+	@RequestMapping(value = "/SendEmail", method = RequestMethod.POST)
+	public void sendMessage(@RequestParam(required=true) MessageInfo messageInfo)
+	{
+		
+		emailSender.send(messageInfo, server);
+	}
+}
