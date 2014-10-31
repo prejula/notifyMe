@@ -1,0 +1,7 @@
+package org.prej.noti.sender.facebook;
+
+import org.prej.noti.sender.Sender;
+
+public class FacebookMessageSender implements Sender {
+
+}

@@ -1,0 +1,19 @@
+package org.prej.noti.sender.facebook;
+
+import org.prej.noti.Server;
+import org.prej.noti.message.MessageInfo;
+import org.prej.noti.sender.Sender;
+
+public class FacebookMessageSender implements Sender {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3783771747672620906L;
+
+	public boolean send(MessageInfo message, Server server) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

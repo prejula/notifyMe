@@ -1,5 +1,7 @@
 package org.prej.noti.service.sendMessage.impl;
 
+import java.util.List;
+
 import org.prej.noti.Server;
 import org.prej.noti.message.MessageInfo;
 import org.prej.noti.sender.email.EmailSender;
@@ -18,9 +20,11 @@ public class EmailService implements SendMessageService{
 	private Server server = null;
 
 	@RequestMapping(value = "/SendEmail", method = RequestMethod.POST)
-	public void sendMessage(@RequestParam(required=true) MessageInfo messageInfo)
+	public void sendMessage(@RequestParam(required=true) List<MessageInfo> messageInfoList)
 	{
-		
-		emailSender.send(messageInfo, server);
+		for (MessageInfo messageInfo : messageInfoList)
+		{
+			emailSender.send(messageInfo, server);
+		}
 	}
 }
