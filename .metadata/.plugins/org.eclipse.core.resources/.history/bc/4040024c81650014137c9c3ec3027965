@@ -1,0 +1,14 @@
+package org.prej.noti.twitter.sender;
+
+import org.prej.noti.Server;
+import org.prej.noti.message.MessageInfo;
+import org.prej.noti.sender.Sender;
+
+public class TweetSender implements Sender{
+
+	public boolean send(MessageInfo message, Server server) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

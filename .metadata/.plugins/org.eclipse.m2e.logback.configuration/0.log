@@ -1913,3 +1913,340 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2014-10-31 16:59:20,018 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
 2014-10-31 16:59:36,364 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
 2014-10-31 16:59:36,364 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-10-31 17:02:33,618 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/springframework/social/spring-social-facebook/1.1.1.RELEASE/spring-social-facebook-1.1.1.RELEASE-sources.jar
+2014-10-31 17:02:35,414 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/springframework/social/spring-social-facebook/1.1.1.RELEASE/spring-social-facebook-1.1.1.RELEASE-sources.jar
+2014-10-31 17:02:35,523 [Worker-42] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.social:spring-social-facebook:1.1.1.RELEASE
+2014-11-06 12:21:09,404 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:21:09,466 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:21:11,401 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:21:11,416 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:21:11,432 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:21:11,432 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:21:19,232 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:21:19,247 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:21:19,247 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:21:19,247 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:34:30,999 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:34:31,015 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:34:31,015 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:34:31,015 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:34:33,901 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 12:34:33,901 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-11-06 12:34:33,917 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:34:33,917 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 12:34:33,917 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-06 12:35:02,799 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:35:02,801 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:35:02,803 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 12:35:02,804 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 12:46:44,120 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 12:46:44,245 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:46:44,260 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:46:44,853 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:46:44,853 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:46:45,829 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.pom
+2014-11-06 12:46:47,764 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.pom
+2014-11-06 12:46:48,357 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.2/httpcomponents-client-4.1.2.pom
+2014-11-06 12:46:50,151 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.2/httpcomponents-client-4.1.2.pom
+2014-11-06 12:46:51,040 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom
+2014-11-06 12:46:53,037 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom
+2014-11-06 12:46:53,661 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.pom
+2014-11-06 12:46:55,455 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.pom
+2014-11-06 12:46:56,159 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.2/httpcomponents-core-4.1.2.pom
+2014-11-06 12:46:58,117 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1.2/httpcomponents-core-4.1.2.pom
+2014-11-06 12:46:59,022 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+2014-11-06 12:47:00,800 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+2014-11-06 12:47:01,444 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+2014-11-06 12:47:03,333 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+2014-11-06 12:47:04,116 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+2014-11-06 12:47:05,689 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+2014-11-06 12:47:06,656 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2014-11-06 12:47:08,638 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2014-11-06 12:47:14,941 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar
+2014-11-06 12:47:19,434 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar
+2014-11-06 12:47:24,197 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar
+2014-11-06 12:47:26,241 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar
+2014-11-06 12:47:27,373 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2014-11-06 12:47:29,168 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2014-11-06 12:47:30,634 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+2014-11-06 12:47:32,336 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+2014-11-06 12:47:34,692 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-11-06 12:47:36,268 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom
+2014-11-06 12:47:37,935 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom
+2014-11-06 12:47:38,937 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcomponents-client/4.3.4/httpcomponents-client-4.3.4.pom
+2014-11-06 12:47:40,842 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcomponents-client/4.3.4/httpcomponents-client-4.3.4.pom
+2014-11-06 12:47:41,840 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/project/7/project-7.pom
+2014-11-06 12:47:43,837 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/project/7/project-7.pom
+2014-11-06 12:47:44,581 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
+2014-11-06 12:47:46,283 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
+2014-11-06 12:47:46,876 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
+2014-11-06 12:47:48,846 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
+2014-11-06 12:47:56,940 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar
+2014-11-06 12:48:05,540 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar
+2014-11-06 12:48:12,946 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+2014-11-06 12:48:17,145 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+2014-11-06 12:48:19,344 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 12:48:19,469 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:48:19,469 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:52:08,039 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:52:08,039 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 12:52:14,061 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2-sources.jar
+2014-11-06 12:52:17,087 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2-sources.jar
+2014-11-06 12:52:17,181 [Worker-10] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.1.2
+2014-11-06 12:59:41,929 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/maven-metadata.xml
+2014-11-06 12:59:43,709 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/maven-metadata.xml
+2014-11-06 12:59:44,255 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2014-11-06 12:59:45,955 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2014-11-06 13:00:36,417 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:00:36,511 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:00:36,527 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:00:36,620 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/social/spring-social-web/${org.springframework.social-version}/spring-social-web-${org.springframework.social-version}.pom
+2014-11-06 13:00:54,847 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:00:54,863 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:00:55,830 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:00:55,923 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:00:55,923 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:04,350 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:04,350 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:05,317 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:01:05,426 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:05,426 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:16,441 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:16,457 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:16,519 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/${org.springframework.security.crypto-version}/spring-security-crypto-${org.springframework.security.crypto-version}.pom
+2014-11-06 13:01:17,408 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:01:17,517 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:17,517 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:25,878 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:25,878 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:26,863 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:01:26,972 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:26,972 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:28,204 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:28,204 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:29,187 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:01:29,343 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:01:29,358 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:11:14,528 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\notify-beans
+2014-11-06 13:11:14,528 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 13:15:53,972 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:15:53,972 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:15:54,979 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:15:55,072 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:15:55,072 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:15:55,120 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/social/spring-social-web/1.1.0.RELEAS/spring-social-web-1.1.0.RELEAS.pom
+2014-11-06 13:15:55,120 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-web:jar:1.1.0.RELEAS is missing, no dependency information available
+2014-11-06 13:15:55,136 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-web:jar:1.1.0.RELEAS is missing, no dependency information available
+2014-11-06 13:15:55,756 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-11-06 13:15:58,051 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:15:58,218 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:15:58,218 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:15:59,032 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-11-06 13:16:41,364 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:16:41,364 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:16:42,342 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-06 13:16:42,451 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:16:42,451 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 13:16:42,813 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/3.2.5.RELEASE/spring-security-crypto-3.2.5.RELEASE.pom
+2014-11-06 13:16:45,239 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/3.2.5.RELEASE/spring-security-crypto-3.2.5.RELEASE.pom
+2014-11-06 13:16:46,866 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/3.2.5.RELEASE/spring-security-crypto-3.2.5.RELEASE.jar
+2014-11-06 13:16:48,423 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/3.2.5.RELEASE/spring-security-crypto-3.2.5.RELEASE.jar
+2014-11-06 13:16:54,237 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.8.RELEASE/spring-core-3.2.8.RELEASE.jar
+2014-11-06 13:17:08,284 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.8.RELEASE/spring-core-3.2.8.RELEASE.jar
+2014-11-06 13:17:08,705 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-11-06 13:46:02,388 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/springframework/social/spring-social-config/1.1.0.RELEASE/spring-social-config-1.1.0.RELEASE-sources.jar
+2014-11-06 13:46:04,260 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/springframework/social/spring-social-config/1.1.0.RELEASE/spring-social-config-1.1.0.RELEASE-sources.jar
+2014-11-06 13:46:04,322 [Worker-38] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.social:spring-social-config:1.1.0.RELEASE
+2014-11-06 14:45:45,977 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\notify-beans
+2014-11-06 14:45:45,977 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 14:53:31,769 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 14:53:31,769 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-06 14:53:31,910 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 14:53:31,910 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 14:53:31,910 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 14:53:31,910 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 14:53:32,128 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 14:53:32,128 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-11-06 14:53:32,128 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 14:53:32,144 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 14:53:32,144 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-06 14:53:42,136 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 14:53:42,136 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 14:54:09,129 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 14:54:09,129 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run -Dserver.port=28281
+2014-11-06 14:55:05,625 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 14:55:05,625 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 14:55:05,625 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 14:55:05,625 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 14:55:05,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 14:55:05,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-11-06 14:55:05,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 14:55:05,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 14:55:05,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-06 14:55:08,785 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 14:55:08,785 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:01:32,224 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:01:32,224 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run -Dserver.port=28281
+2014-11-06 15:02:00,196 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\notify-beans
+2014-11-06 15:02:00,212 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:02:08,914 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:02:08,914 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:02:18,663 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:02:18,663 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run -Dserver.port=28281
+2014-11-06 15:15:15,763 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:15:15,779 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:15:15,779 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:15:15,779 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:15:15,779 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:15:15,779 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-11-06 15:15:15,794 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:15:15,794 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:15:15,794 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-06 15:15:54,507 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:15:54,507 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:15:54,507 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:15:54,507 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:15:54,523 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:15:54,523 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-11-06 15:15:54,538 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:15:54,538 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:15:54,538 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-06 15:17:43,781 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1-sources.jar
+2014-11-06 15:17:45,221 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1-sources.jar
+2014-11-06 15:17:45,815 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/io/takari/aether/takari-local-repository/0.9.0/takari-local-repository-0.9.0-sources.jar
+2014-11-06 15:17:47,359 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/io/takari/aether/takari-local-repository/0.9.0/takari-local-repository-0.9.0-sources.jar
+2014-11-06 15:17:49,202 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/io/takari/takari-filemanager/0.7.0/takari-filemanager-0.7.0-sources.jar
+2014-11-06 15:17:50,843 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/io/takari/takari-filemanager/0.7.0/takari-filemanager-0.7.0-sources.jar
+2014-11-06 15:17:56,891 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.1/maven-core-3.2.1-sources.jar
+2014-11-06 15:18:02,064 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.1/maven-core-3.2.1-sources.jar
+2014-11-06 15:18:04,045 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.2.1/maven-model-3.2.1-sources.jar
+2014-11-06 15:18:06,651 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.2.1/maven-model-3.2.1-sources.jar
+2014-11-06 15:18:07,774 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.1/maven-settings-3.2.1-sources.jar
+2014-11-06 15:18:11,037 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.1/maven-settings-3.2.1-sources.jar
+2014-11-06 15:18:12,178 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.1/maven-settings-builder-3.2.1-sources.jar
+2014-11-06 15:18:13,600 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.1/maven-settings-builder-3.2.1-sources.jar
+2014-11-06 15:18:14,271 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.1/maven-repository-metadata-3.2.1-sources.jar
+2014-11-06 15:18:15,692 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.1/maven-repository-metadata-3.2.1-sources.jar
+2014-11-06 15:18:16,848 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.1/maven-artifact-3.2.1-sources.jar
+2014-11-06 15:18:18,349 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.1/maven-artifact-3.2.1-sources.jar
+2014-11-06 15:18:19,506 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.1/maven-plugin-api-3.2.1-sources.jar
+2014-11-06 15:18:20,863 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.1/maven-plugin-api-3.2.1-sources.jar
+2014-11-06 15:18:23,380 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.1/maven-model-builder-3.2.1-sources.jar
+2014-11-06 15:18:24,976 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.1/maven-model-builder-3.2.1-sources.jar
+2014-11-06 15:18:25,990 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.1/maven-aether-provider-3.2.1-sources.jar
+2014-11-06 15:18:27,410 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.1/maven-aether-provider-3.2.1-sources.jar
+2014-11-06 15:18:30,253 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2-sources.jar
+2014-11-06 15:18:31,844 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2-sources.jar
+2014-11-06 15:18:33,654 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2-sources.jar
+2014-11-06 15:18:35,151 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2-sources.jar
+2014-11-06 15:18:36,228 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.19/plexus-interpolation-1.19-sources.jar
+2014-11-06 15:18:37,647 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.19/plexus-interpolation-1.19-sources.jar
+2014-11-06 15:18:40,481 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.17/plexus-utils-3.0.17-sources.jar
+2014-11-06 15:18:42,152 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.17/plexus-utils-3.0.17-sources.jar
+2014-11-06 15:18:42,807 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar
+2014-11-06 15:18:44,243 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar
+2014-11-06 15:18:45,135 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3-sources.jar
+2014-11-06 15:18:46,851 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3-sources.jar
+2014-11-06 15:18:47,899 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.2.1/maven-embedder-3.2.1-sources.jar
+2014-11-06 15:18:49,367 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.2.1/maven-embedder-3.2.1-sources.jar
+2014-11-06 15:18:50,132 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2014-11-06 15:18:51,520 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2014-11-06 15:18:52,602 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar
+2014-11-06 15:18:53,993 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar
+2014-11-06 15:18:58,692 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.2.1/maven-compat-3.2.1-sources.jar
+2014-11-06 15:18:58,911 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.spring.io/libs-release/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4-sources.jar
+2014-11-06 15:19:03,126 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.2.1/maven-compat-3.2.1-sources.jar
+2014-11-06 15:19:04,453 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.6/wagon-provider-api-2.6-sources.jar
+2014-11-06 15:19:06,034 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.6/wagon-provider-api-2.6-sources.jar
+2014-11-06 15:19:08,343 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2014-11-06 15:19:08,702 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.spring.io/libs-release/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4-sources.jar
+2014-11-06 15:19:08,764 [Worker-58] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.3.4
+2014-11-06 15:19:09,866 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2014-11-06 15:19:15,903 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar
+2014-11-06 15:19:22,523 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar
+2014-11-06 15:19:24,379 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2-sources.jar
+2014-11-06 15:19:25,861 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2-sources.jar
+2014-11-06 15:19:26,735 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2-sources.jar
+2014-11-06 15:19:28,236 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2-sources.jar
+2014-11-06 15:19:29,091 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.12.0/aether-connector-okhttp-0.12.0-sources.jar
+2014-11-06 15:19:30,558 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.12.0/aether-connector-okhttp-0.12.0-sources.jar
+2014-11-06 15:19:33,111 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/1.5.4/okhttp-1.5.4-sources.jar
+2014-11-06 15:19:34,719 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/1.5.4/okhttp-1.5.4-sources.jar
+2014-11-06 15:19:35,405 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-connector-wagon/0.9.0.M2/aether-connector-wagon-0.9.0.M2-sources.jar
+2014-11-06 15:19:38,184 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/aether/aether-connector-wagon/0.9.0.M2/aether-connector-wagon-0.9.0.M2-sources.jar
+2014-11-06 15:19:38,839 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/2.6/wagon-file-2.6-sources.jar
+2014-11-06 15:19:40,217 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/2.6/wagon-file-2.6-sources.jar
+2014-11-06 15:19:43,386 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2014-11-06 15:19:45,164 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2014-11-06 15:19:46,318 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+2014-11-06 15:19:47,847 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+2014-11-06 15:22:47,480 [Worker-49] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2-sources.jar
+2014-11-06 15:22:49,339 [Worker-49] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2-sources.jar
+2014-11-06 15:22:49,463 [Worker-49] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.1.2
+2014-11-06 15:23:32,288 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:23:32,288 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:23:32,288 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:23:32,288 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:23:32,303 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:23:32,303 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:23:32,303 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:23:32,303 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:23:32,303 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-06 15:23:38,173 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\notify-beans
+2014-11-06 15:23:38,173 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:23:45,598 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:23:45,598 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:24:19,067 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:24:19,067 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:debug
+2014-11-06 15:24:41,255 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:24:41,255 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run
+2014-11-06 15:25:11,428 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:25:11,428 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run
+2014-11-06 15:45:12,087 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:45:12,089 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:45:12,091 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-06 15:45:12,092 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:45:12,123 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:45:12,124 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-11-06 15:45:12,127 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-06 15:45:12,129 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-06 15:45:12,129 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-06 15:45:30,080 [Worker-61] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\notify-beans
+2014-11-06 15:45:30,080 [Worker-61] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:45:39,392 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:45:39,392 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:45:49,876 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:45:49,876 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run
+2014-11-06 15:46:19,783 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:46:19,783 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run
+2014-11-06 15:51:32,893 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\notify-beans
+2014-11-06 15:51:32,893 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:51:41,805 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:51:41,805 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-06 15:52:04,473 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-06 15:52:04,473 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run
+2014-11-07 12:52:07,596 [Worker-92] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify:1.0 @ D:\Code_Personal\git_cloned_projects\notify-me\Notify\pom.xml.
+2014-11-07 12:52:11,002 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.prej:notify-beans:0.0.1-SNAPSHOT @ D:\Code_Personal\git_cloned_projects\notify-me\notify-beans\pom.xml.
+2014-11-07 12:52:11,298 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-07 12:52:11,314 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-08 12:31:55,370 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-08 12:31:55,432 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run
+2014-11-08 12:33:35,948 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-core:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-08 12:33:35,963 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.social:spring-social-config:jar:1.1.0.BUILD-SNAPSHOT is missing, no dependency information available
+2014-11-08 12:33:36,728 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-08 12:33:36,728 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-08 12:33:36,728 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-11-08 12:33:36,728 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-08 12:33:38,366 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-08 12:33:38,366 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-11-08 12:33:38,382 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-11-08 12:33:38,397 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-11-08 12:33:38,397 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code_Personal\git_cloned_projects\notify-me\Notify\src\test\resources
+2014-11-08 12:33:51,489 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\notify-beans
+2014-11-08 12:33:51,489 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-08 12:34:01,681 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-08 12:34:01,681 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml clean install
+2014-11-08 12:34:12,612 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-08 12:34:12,612 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run
+2014-11-08 12:34:35,527 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Code_Personal\git_cloned_projects\notify-me\Notify
+2014-11-08 12:34:35,527 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s D:\apache-maven-3.2.3-bin\apache-maven-3.2.3\conf\settings.xml spring-boot:run

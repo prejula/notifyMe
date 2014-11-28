@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class NotificationServerService {
 
 	@RequestMapping(value = "/addNotificationServer", method = RequestMethod.POST)
-	public void addNotificationServer(@RequestParam(required=true) Server server)
-	{
-		
+	public void addNotificationServer(
+			@RequestParam(required = true) Server server) {
+
 	}
-	
+
 	@RequestMapping(value = "/removeNotificationServer", method = RequestMethod.DELETE)
-	public void removeNotificationServer(@RequestParam(required=true) Server server)
-	{
-		
+	public void removeNotificationServer(
+			@RequestParam(required = true) Server server) {
+
 	}
 }

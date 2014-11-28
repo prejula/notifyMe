@@ -1,0 +1,30 @@
+package org.prej.noti.facebook.sender;
+
+import org.prej.noti.connector.Connector;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.social.connect.support.ConnectionFactoryRegistry;
+import org.springframework.social.facebook.connect.FacebookConnectionFactory;
+
+@Configuration
+public class FacebookConnector implements Connector {
+
+	private ConnectionFactoryRegistry registry = null;
+	
+	
+	@Bean
+	public void connect() {
+		
+
+		/*environment
+		.getProperty("facebook.clientId"), environment
+		.getProperty("facebook.clientSecret")*/
+	}
+
+	@Bean
+	public void connectionFactoryLocator(String appId, String secretKey) {
+	
+		registry.addConnectionFactory(new FacebookConnectionFactory(appId, secretKey));
+	}
+
+}

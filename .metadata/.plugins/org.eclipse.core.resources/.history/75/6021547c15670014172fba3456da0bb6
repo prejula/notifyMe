@@ -1,0 +1,4 @@
+server.contextPath=/notify
+server.port=28180
+spring.social.facebook.appId=731667440241867
+spring.social.facebook.appSecret=6352f4598b9062bf1b2f5c34e7f21853

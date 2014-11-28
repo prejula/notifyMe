@@ -36,7 +36,25 @@
         <artifactId>spring-social-twitter</artifactId>
         <version>1.1.0.RELEASE</version>
     </dependency>
+    
+    <dependency>
+    	<groupId>org.apache.httpcomponents</groupId>
+    	<artifactId>httpclient</artifactId>
+   		<version>4.1.2</version>
+	</dependency>
+	
+	<dependency>
+         <groupId>org.springframework.social</groupId>
+		 <artifactId>spring-social-web</artifactId>
+	     <version>1.1.0.RELEASE</version>
+	</dependency>  	
 
+	<dependency>
+		 <groupId>org.springframework.security</groupId>
+		 <artifactId>spring-security-crypto</artifactId>
+		 <version>3.2.5.RELEASE</version>
+	</dependency>
+	
    </dependencies>
 
 </project>

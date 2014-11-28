@@ -12,7 +12,7 @@ public class SMSService implements SendMessageService {
 	@RequestMapping(value = "/SendSMS", method = RequestMethod.POST)
 	public void sendMessage(List<MessageInfo> messageInfoList) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

@@ -1,0 +1,7 @@
+package org.prej.noti.twitter.sender;
+
+import org.prej.noti.sender.Sender;
+
+public class TweetSender implements Sender{
+
+}

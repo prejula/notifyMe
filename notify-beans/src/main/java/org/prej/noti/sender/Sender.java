@@ -12,7 +12,7 @@ import org.prej.noti.message.MessageInfo;
  * @author ppp
  *
  */
-public interface Sender extends Serializable{
+public interface Sender extends Serializable {
 
 	public boolean send(MessageInfo message, Server server);
 }

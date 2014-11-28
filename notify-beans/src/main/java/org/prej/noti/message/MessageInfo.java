@@ -8,12 +8,11 @@ import java.util.List;
 
 import org.prej.noti.receiver.Receiver;
 
-
 /**
  * @author ppp
  *
  */
-public class MessageInfo implements Serializable{
+public class MessageInfo implements Serializable {
 
 	/**
 	 * 
@@ -21,17 +20,15 @@ public class MessageInfo implements Serializable{
 	private static final long serialVersionUID = 7460498849153613255L;
 
 	private String msgId;
-	
+
 	private String message;
-	
+
 	private String type;
-	
+
 	private String sender;
-	
+
 	private List<Receiver> receiver;
 
-	
-	
 	public String getSender() {
 		return sender;
 	}
@@ -71,6 +68,5 @@ public class MessageInfo implements Serializable{
 	public void setMessage(String message) {
 		this.message = message;
 	}
-	
+
 }
- 

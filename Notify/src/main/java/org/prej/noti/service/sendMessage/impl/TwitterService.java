@@ -12,7 +12,7 @@ public class TwitterService implements SendMessageService {
 	@RequestMapping(value = "/SendTweet", method = RequestMethod.POST)
 	public void sendMessage(List<MessageInfo> messageInfoList) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

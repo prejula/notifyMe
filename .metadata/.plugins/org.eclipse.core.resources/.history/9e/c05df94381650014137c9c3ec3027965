@@ -1,0 +1,5 @@
+package org.prej.noti.twitter.sender;
+
+public class TweetSender {
+
+}

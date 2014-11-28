@@ -3,13 +3,13 @@ package org.prej.noti;
 public class Server {
 
 	private String ipAddress;
-	
+
 	private int port;
-	
+
 	private String hostName;
-	
+
 	private String userName;
-	
+
 	private String password;
 
 	public String getUserName() {
@@ -51,5 +51,5 @@ public class Server {
 	public void setHostName(String hostName) {
 		this.hostName = hostName;
 	}
-	
+
 }

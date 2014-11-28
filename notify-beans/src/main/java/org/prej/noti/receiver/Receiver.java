@@ -1,9 +1,9 @@
 package org.prej.noti.receiver;
 
 public class Receiver {
-	
+
 	private String name;
-	
+
 	private String address;
 
 	public String getAddress() {

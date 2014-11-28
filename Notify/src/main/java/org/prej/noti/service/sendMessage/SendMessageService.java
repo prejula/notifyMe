@@ -7,5 +7,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 public interface SendMessageService {
 
-	public void sendMessage(@RequestParam(required=true) List<MessageInfo> messageInfoList);
+	public void sendMessage(
+			@RequestParam(required = true) List<MessageInfo> messageInfoList);
 }

@@ -1,0 +1,74 @@
+package org.prej.noti.facebook.connect;
+
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.prej.noti.connector.Connector;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.social.connect.Connection;
+import org.springframework.social.connect.support.ConnectionFactoryRegistry;
+import org.springframework.social.facebook.api.Facebook;
+import org.springframework.social.facebook.connect.FacebookConnectionFactory;
+import org.springframework.social.oauth2.AccessGrant;
+import org.springframework.social.oauth2.GrantType;
+import org.springframework.social.oauth2.OAuth2Operations;
+import org.springframework.social.oauth2.OAuth2Parameters;
+
+@Configuration
+public class FacebookConnector implements Connector {
+
+	private ConnectionFactoryRegistry registry = null;
+	
+	
+	@Bean
+	public void connect() {
+		
+
+		connectionFactoryLocator(null, null);
+		/*environment
+		.getProperty("facebook.clientId"), environment
+		.getProperty("facebook.clientSecret")*/
+		
+		//registry.getConnectionFactory("").createConnection("");
+		
+	}
+
+	@Bean
+	public void connectionFactoryLocator(String appId, String secretKey) {
+	
+		FacebookConnectionFactory connectionFactory = new FacebookConnectionFactory(appId, secretKey);
+		
+		OAuth2Operations oauthOperations = connectionFactory.getOAuthOperations();
+		
+		OAuth2Parameters params = new OAuth2Parameters();
+		params.setRedirectUri("http://docs.spring.io/spring-social/docs/1.0.x/reference/html/serviceprovider.html");
+		
+		String authorizeUrl = oauthOperations.buildAuthorizeUrl(GrantType.AUTHORIZATION_CODE, params);
+
+		HttpClient httpClient = new DefaultHttpClient();
+		
+		HttpGet httpGet = new HttpGet(authorizeUrl);
+		
+		try {
+			HttpResponse response = httpClient.execute(httpGet);
+			
+		} catch (ClientProtocolException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+		// upon receiving the callback from the provider:
+		AccessGrant accessGrant = oauthOperations.exchangeForAccess("", "https://my-callback-url", null);
+		Connection<Facebook> connection = connectionFactory.createConnection(accessGrant);
+		
+		registry.addConnectionFactory(connectionFactory);
+	}
+
+}

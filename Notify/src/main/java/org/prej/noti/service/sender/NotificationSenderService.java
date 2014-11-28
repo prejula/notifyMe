@@ -11,23 +11,20 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class NotificationSenderService {
-	
+
 	@RequestMapping(value = "/AddNotificationSender", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.OK)
-	public void addSender(@RequestParam(required=true) Sender sender)
-	{
+	public void addSender(@RequestParam(required = true) Sender sender) {
 		System.out.println("Sender added");
-		
+
 	}
-	
-	@RequestMapping(value = "/RemoveNotificationSender", method=RequestMethod.DELETE)
+
+	@RequestMapping(value = "/RemoveNotificationSender", method = RequestMethod.DELETE)
 	@ResponseStatus(HttpStatus.OK)
-	@ResponseBody	
-	public String removeNotificationSender()
-	{
+	@ResponseBody
+	public String removeNotificationSender() {
 		System.out.println("Sender removed");
 		return "hello";
 	}
-
 
 }
